@@ -4,7 +4,6 @@ rightlist = []
 with open('input.txt', 'r') as file:
     lines = file.readlines() # speichert jede Zeile als object in einer liste
 
-
 def assignlist():
     for numbers in lines:
         numbers_seperated = str(numbers).split("   ") # macht eine Liste aus jeder Zeile, Trennung an 3 leerzeichen
